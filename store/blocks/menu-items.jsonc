@@ -1,4 +1,29 @@
 {
+  "menu-item#major-appliances": {
+    "props": {
+      "itemProps": {
+        "text": "Major Aplliances"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#major"]
+  },
+  "menu-item#small-appliances": {
+    "props": {
+      "itemProps": {
+        "text": "Small Aplliances"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#small"]
+  },
+  "menu-item#electronics": {
+    "props": {
+      "itemProps": {
+        "text": "Electronics"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#electronics"]
+  },
+
   "menu-item#refrigerators": {
     "props": {
       "type": "category",
