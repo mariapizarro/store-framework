@@ -10,6 +10,7 @@
       "orientation": "horizontal"
     }
   },
+
   "menu-item#major-appliances": {
     "props": {
       "itemProps": {
@@ -17,22 +18,6 @@
       }
     },
     "blocks": ["vtex.menu@2.x:submenu#major"]
-  },
-  "menu-item#small-appliances": {
-    "props": {
-      "itemProps": {
-        "text": "Small Aplliances"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu#small"]
-  },
-  "menu-item#electronics": {
-    "props": {
-      "itemProps": {
-        "text": "Electronics"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu#electronics"]
   },
   "vtex.menu@2.x:submenu#major": {
     "children": [
@@ -49,6 +34,15 @@
       "orientation": "vertical"
     }
   },
+
+  "menu-item#small-appliances": {
+    "props": {
+      "itemProps": {
+        "text": "Small Aplliances"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#small"]
+  },
   "vtex.menu@2.x:submenu#small":{
     "children":[
       "vtex.menu@2.x:menu#small"
@@ -63,6 +57,15 @@
     "props": {
       "orientation": "vertical"
     }
+  },
+
+  "menu-item#electronics": {
+    "props": {
+      "itemProps": {
+        "text": "Electronics"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#electronics"]
   },
   "vtex.menu@2.x:submenu#electronics":{
     "children":[
